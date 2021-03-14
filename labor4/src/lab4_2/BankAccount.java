@@ -4,12 +4,12 @@ public class BankAccount {
     private double balance;
     private String accountNumber;
 
-    public BankAccount(String accountNumber ){
+    public BankAccount(String accountNumber) {
         this.accountNumber = accountNumber;
     }
 
     //getters
-    public String getAccountNumber(){
+    public String getAccountNumber() {
         return accountNumber;
     }
 
@@ -17,22 +17,22 @@ public class BankAccount {
         return balance;
     }
 
-    public void deposit(double amount){
-        if(amount <= 0){
+    public void deposit(double amount) {
+        if (amount <= 0) {
             return;
         }
         balance += amount;
     }
 
-    public boolean withdraw(double amount){
-        if(amount > balance){
+    public boolean withdraw(double amount) {
+        if (amount > balance) {
             return false;
         }
         balance -= amount;
         return true;
     }
 
-    public String toString(){
-        return String.format("Account number: %s\nBalance: %f\n",accountNumber,balance);
+    public String toString() {
+        return String.format("Account number: %s\nBalance: %f\n", accountNumber, balance);
     }
 }
