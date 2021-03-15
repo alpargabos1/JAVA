@@ -21,8 +21,9 @@ public class MyArray {
     }
 
     public MyArray(MyArray myArray) {
-        this.elements = myArray.elements;
         this.length = myArray.length;
+        this.elements = new double[length];
+        this.elements = Arrays.copyOf(myArray.elements,length);
     }
 
     public MyArray(String fileName) {
