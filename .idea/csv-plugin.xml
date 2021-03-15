@@ -24,6 +24,27 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\labor5\src\lab5_1\Bank.java">
+          <value>
+            <Attribute>
+              <option name="separator" value=";" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\labor5\src\lab5_1\Customer.java">
+          <value>
+            <Attribute>
+              <option name="separator" value=";" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\labor5\src\lab5_2\Matrix.java">
+          <value>
+            <Attribute>
+              <option name="separator" value=";" />
+            </Attribute>
+          </value>
+        </entry>
       </map>
     </option>
   </component>
