@@ -5,7 +5,13 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        ArrayList<Customer> customers = new ArrayList<>();
+        ArrayList<Integer> list = new ArrayList<>();
+        for( int i=4; i>0; i--){
+            list.add( i );
+        }
+        for( Integer i: list ){
+            System.out.print(i);
+        }
     }
     public static ArrayList<Customer> readFromFile(String fileName){
         ArrayList<Customer> customers = new ArrayList<>();
